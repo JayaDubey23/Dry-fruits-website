@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Food Shop</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .zoom-animation{
+            display: inline-block;
+            font-size: 24px;
+            animation: zoomInOut 10s infinite;
+        }
+
+        @keyframes zoomInOut {
+            50% {
+                transform: scale(1.4);
+                opacity: 0.5;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="" height="100px">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Schedule.html">Schedule</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Speaker.html">Speaker</a></li>
+                <li><a href="#about">About Us</a></li>
+
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1 style="color: #500909;" class="zoom-animation">Welcome to the Best Dry Fruit Shop</h1>
+            <p>Fresh, Organic, and High-Quality Dry Fruit Delivered to Your Doorstep</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </header>
+
+    <section id="products" class="products-section">
+        <h2>Our Popular Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="img1.png" alt="Dry Fruits">
+                <h3>Almond</h3>
+                <p>Delicious and healthy dry fruits for your everyday needs.</p>
+            </div>
+            <div class="product-card">
+                <img src="img3.png" alt="Nuts">
+                <h3>Cashew Nut</h3>
+                <p>Crunchy and nutritious nuts sourced from the best farms.</p>
+            </div>
+            <div class="product-card">
+                <img src="img5.png" alt="Spices">
+                <h3>Walnut</h3>
+                <p>Aromatic and flavorful spices to enhance your cooking.</p>
+            </div>
+            <div class="product-card">
+                <img src="img6.png" alt="Grains">
+                <h3>Raisins</h3>
+                <p>Organic whole grains for a balanced and healthy diet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are committed to providing the highest quality dry foods at affordable prices. Our products are sourced directly from trusted suppliers, ensuring that you get only the best. Whether you're looking for healthy snacks or ingredients for your meals, we've got you covered.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Dry Food Shop. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

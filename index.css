@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    /* margin-left: 10%; */
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section {
+    background-image: url('dry_food_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    /* padding: 100px 20px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #500909; */
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(232, 222, 222);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #500909;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.products-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.products-section h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: #5a1212;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    opacity: 0.8;
+    background-color: rgb(222, 195, 195);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(133, 94, 94, 0.1);
+    text-align: center;
+}
+.product-card:hover{
+    background-color: #ece8e8;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #6c1b1b;
+}
+
+.product-card p {
+    font-size: 16px;
+    color: #6c1b1b;
+}
+
+.about-section {
+    padding: 50px 20px;
+    background-color: #f8d8d8;
+    color: rgb(96, 25, 25);
+    text-align: center;
+    opacity: 0.8;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.contact-button {
+    background-color: #f4b41a;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #500909;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

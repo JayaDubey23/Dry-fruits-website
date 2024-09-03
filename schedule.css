@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    
+        background-image: url(img4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+.hero-section {
+    background-image: url('dry_food_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    /* padding: 100px 20px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #500909; */
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(232, 222, 222);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.schedule-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #500909;
+    padding: 20px;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-table th {
+    background-color: #500909;
+    color: #fff;
+    font-size: 16px;
+}
+h1{
+    color: #500909;
+    text-shadow:1px 1px 3px #500909;
+}
+
+.schedule-table td {
+    font-size: 14px;
+    color: #333;
+}
+
+.schedule-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.footer {
+    background-color: #500909;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}

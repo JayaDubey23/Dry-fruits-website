@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    
+        background-image: url(img4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+
+.hero-section {
+    background-image: url('dry_food_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    /* padding: 100px 20px; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #500909; */
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(232, 222, 222);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#speaker{margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.food{
+    height: 400px;
+    width: 300px;
+    /* margin: 40px; */
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+    box-shadow: 10px 20px 30px black;
+    display: inline-block;
+    display: flex;
+    padding: 30px;
+    opacity: 0.9;
+    background-color: rgb(222, 195, 195);
+}
+
+.food img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 10px 5px 10px black;
+    border-radius: 50%;    
+}
+
+h1{
+    text-align: center;
+    color: #500909;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #500909;
+    
+}
+
+.row{
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 1250px;
+}
+.col{
+    height: 400px;
+    width: 300px;
+    margin-left: 80px;
+    /* border: 1px solid red;   */
+    float: left;
+}
+.footer {
+    background-color: #500909;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
